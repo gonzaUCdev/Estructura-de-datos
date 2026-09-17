@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node.js and TypeScript
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.local
+secrets/
+credentials.json
+
+# Editor and operating system
+.vscode/
+.idea/
+*.swp
+Thumbs.db
